@@ -1,0 +1,42 @@
+.ItemContainer{
+    width: 310px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+    margin: 50px 50px 50px 150px;
+    overflow: hidden;
+    font-family: Polysans,sans-serif;
+}
+
+.ItemImage{
+    max-width: 100%;
+    height: auto;
+}
+
+.ItemContent{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.ItemName{
+    font-size: 1em;
+    font-weight: 600;
+    color: #393e46;
+}
+
+.ItemButton{
+    background-color: rgb(11, 174, 174);
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.buttonContainer{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
